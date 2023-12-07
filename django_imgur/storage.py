@@ -30,7 +30,7 @@ class ImgurStorage(Storage):
     A storage class providing access to resources in a Dropbox Public folder.
     """
 
-    def __init__(self, location='/'):
+    def __init__(self, location=''):
         self.client = ImgurClient(
             CONSUMER_ID,
             CONSUMER_SECRET,
